@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    background-color: #2D2C34;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.border {
+    border-top: 0.5px solid #E0E0E0;
+    width: 1800px;
+    margin-left: 2%;
+    margin-top: 10px;
+    opacity: 0.25;
+}
+
+.sections-links .navmenu-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 900px;
+}
+
+.sections-links .navmenu-itens .nav-item {
+    list-style-type: none;
+}
+
+.sections-links .navmenu-itens .nav-item .navmenu-link {
+    color: #ffffffff;
+}
+
+.sections-links .navmenu-itens .nav-item .navmenu-link:hover {
+    color: #6c6c6c;
+    transition: 0.3s;
+}
+
+.principal-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 5.8%;
+    margin-right: 25%;
+}
+
+.principal-content .victor-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;
+    object-fit: cover;
+    object-position: 0px -100px;
+}
+
+
+.principal-content .principal-texts {
+    color: #ffffffff;
+}
+
+.principal-content .principal-texts .border-text {
+    border-bottom: 1px solid #ffffffff;
+    width: 500px;
+    margin-left: 12.5%;
+    opacity: 0.25;
+}
+
+.principal-content .principal-texts .subtitle-principal-content {
+    font-weight: 400;
+}
+
+.progressbars {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 450px;
+    margin-left: 72%;
+    margin-top: -17%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progressbars .progressbar {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 36px;
+    border-radius: 25px;
+    border: 3px solid #E0E0E0;
+    color: #E0E0E0;
+    text-align: center;
+    font-size: 12px;
+
+    .progressbar-measure-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        height: 30px;
+        width: 48%;
+        margin-left: 10px;
+        background: linear-gradient(90deg, #020024 0%, #650979 35%, #ff0074 100%);
+    }
+
+    .progressbar-measure-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        height: 30px;
+        width: 33%;
+        margin-left: 10px;
+        background: linear-gradient(90deg, #020024 0%, #650979 35%, #ff0074 100%);
+    }
+
+    .progressbar-measure-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        height: 30px;
+        width: 70%;
+        margin-left: 10px;
+        background: linear-gradient(90deg, #020024 0%, #650979 35%, #ff0074 100%);
+    }
+
+    .progressbar-measure-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        height: 30px;
+        width: 33%;
+        margin-left: 10px;
+        background: linear-gradient(90deg, #020024 0%, #650979 35%, #ff0074 100%);
+    }
+  }
+  
+  .progressbars .progressbar .language-icon {
+    margin-left: -15%;
+  }
+
+  .principal-arrow {
+    width: 50px;
+    height: 60px;
+    margin-top: 18%;
+    margin-left: 100vh;
+    transform: rotate(-90deg);
+}
+
+  .about-me {
+    height: 100vh;
+    background: #fff;
+  }
+
+
